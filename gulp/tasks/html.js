@@ -12,7 +12,7 @@ export const html = () => {
         message: "Error: <%= error.message %>"
       }))
     )
-   // .pipe(fileInclude())
+    .pipe(fileInclude())
     .pipe (pug({
       pretty:true, //cжатие
       vebrose: true //показать какой файл обработан
